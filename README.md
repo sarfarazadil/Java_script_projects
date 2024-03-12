@@ -4,7 +4,7 @@
 # 🚀 About Me
 I'm a Frontend developer who builds the visible parts of websites and apps. I use code to create what you see and interact with, like buttons, menus, and animations!
 
-
+![](new.gif)
 
 
 ## Skill
