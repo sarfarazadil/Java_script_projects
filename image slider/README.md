@@ -1,8 +1,8 @@
 
 
 
-## Form Validation
-Form validator using HTML, CSS, and JavaScript is a valuable tool for creating robust and user-friendly web forms.
+## Image Slider
+Use to display multiple image
 
 
 
@@ -14,7 +14,7 @@ Form validator using HTML, CSS, and JavaScript is a valuable tool for creating r
 ## Laptop Preveiw    
 "Screenshot"
 
-![](Screenshot.png)
+![](image.png)
 
 
 
