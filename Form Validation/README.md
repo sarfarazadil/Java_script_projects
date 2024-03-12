@@ -18,3 +18,10 @@ Form validator using HTML, CSS, and JavaScript is a valuable tool for creating r
 "Screenshot"
 
 ![](Screenshot.png)
+
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at sarfarazadil18@gmail.com
+
