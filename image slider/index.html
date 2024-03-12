@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide">
+            <img src="img/img1.jpg" alt="">
+            <div class="caption">Caption 1</div>
+        </div>
+        <div class="slide">
+            <img src="img/img2.jpg" alt="">
+            <div class="caption">Caption 2</div>
+        </div>
+        <div class="slide">
+            <img src="img/img3.jpg" alt="">
+            <div class="caption">Caption 3</div>
+        </div>
+        <div class="slide">
+            <img src="img/img4.jpg" alt="">
+            <div class="caption">Caption 4</div>
+
+        </div>
+        <span class="arrow prev " onclick="controller(-1)"  >&#10094;</span>
+        <span class="arrow next " onclick="controller(1)"  >&#10095;</span>
+    </div>
+
+
+    <script src="script.js" ></script>
+    
+</body>
+</html>
+
+
+
