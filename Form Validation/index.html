@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+    <style>
+        body{
+            background-color:#3498db ;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #form_container{
+            background-color: aliceblue;
+            padding: 50px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        h2{
+            margin: 0px 0px 10px 0px;
+            font-family: "Poppins", sans-serif;
+            /* font-weight: 200;
+            font-style: normal; */
+        }
+        input{
+            width: 200px;
+            margin: 10px 0px;
+            padding: 10px;
+        }
+        input[type ="submit"]{
+            width: 222px;
+            border: none;
+            background-color: #3498db;
+            color: white;
+            border-radius: 3px;
+            font-family: "Poppins", sans-serif;
+
+        }
+        .error{
+            color: red;
+            margin: 0px;
+            text-align: left;
+            font-family: "Poppins", sans-serif;
+            font-size: smaller;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="form_container" >
+        <h2>Login</h2>
+        <form action="" onsubmit="return validateForm()" > 
+            <input type="text" placeholder="username" id="username" ><br>
+            <P id="usererror1" class="error" ></P>
+            <input type="password" placeholder="password" id="password" ><br>
+            <P id="usererror2" class="error" ></P>
+            <input type="submit">
+        </form>
+    </div>
+ 
+
+    <script>
+        let username = document.getElementById("username");
+        let password = document.getElementById("password");
+        let flag =1;
+        function validateForm(){
+            if(username.value== "" ){
+                // alert("empty");
+                document.getElementById("usererror1").innerHTML = "User name is Empty";
+                flag =0;
+            }
+            else if(username.value.length <3){
+                document.getElementById("usererror1").innerHTML = "User name must be min 3 char";
+                flag =0;
+            }
+            else{
+                document.getElementById("usererror1").innerHTML = "";
+                flag= 1;
+
+            }
+
+            if(password.value == ""){
+                document.getElementById("usererror2").innerHTML = "Password is empty";
+                flag =0;
+            }
+            else{
+                document.getElementById("usererror2").innerHTML = "";
+                flag = 1;
+
+            }
+             if(flag){
+                return true;
+
+             }
+             else{
+                return false;
+            }
+
+            
+        }
+
+    </script>
+
+
+    
+</body>
+</html>
