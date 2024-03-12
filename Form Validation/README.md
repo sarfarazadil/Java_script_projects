@@ -11,4 +11,4 @@ Form validator using HTML, CSS, and JavaScript is a valuable tool for creating r
 ## Laptop Preveiw    
 "Screenshot"
 
-![](Screenshot(421).png)
+![](Screenshot.png)
