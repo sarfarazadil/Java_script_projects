@@ -6,8 +6,6 @@ I'm a Frontend developer who builds the visible parts of websites and apps. I us
 
 
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarfaraz-adil-46680718b)
-
 
 ## Skill
 
@@ -18,3 +16,17 @@ I'm a Frontend developer who builds the visible parts of websites and apps. I us
 *BOOTSTRAP*
 
 *JAVASCRIPT*
+
+
+
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at sarfarazadil18@gmail.com
+
+
+## My Linkedin
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarfaraz-adil-46680718b)
+
+
