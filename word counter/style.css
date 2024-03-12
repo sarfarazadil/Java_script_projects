@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    background-color: #5FBDFF;
+}
+#main{
+    margin: 1% 20% ;
+    /* background-color: aqua; */
+    width: 60%;
+    height: 65vh;
+    
+}
+#up{
+    display: flex;
+    background-color: #7B66FF;
+    justify-content: space-around;
+    /* box-shadow: 10px 0px 15px 2px black  ; */
+}
+
+#down{
+    padding: 11px;
+    box-shadow: 10px 10px 15px 2px black  ;
+}
+#text{
+    width: 98.5%;
+    height: 98.5%;
+    font-size: 20px;
+    
+
+    /* box-sizing: border-box; */
+    /* -webkit-box-sizing: border-box;  */
+
+    border: #7B66FF solid 2px;
+}
