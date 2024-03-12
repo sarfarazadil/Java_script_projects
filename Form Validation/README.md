@@ -8,6 +8,8 @@ I'm a Frontend developer who builds the visible parts of websites and apps. I us
 Form validator using HTML, CSS, and JavaScript is a valuable tool for creating robust and user-friendly web forms.
 
 
+## Live ->  https://cerulean-pie-7de3e1.netlify.app/
+
 ## Laptop Preveiw    
 "Screenshot"
 
